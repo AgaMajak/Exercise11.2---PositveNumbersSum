@@ -3,9 +3,7 @@ import java.util.Collections;
 
 public class PositiveNumbersTest {
     public static void main(String[] args) {
-        ArrayList<Integer> numbers = new ArrayList<>();
-
-        NumbersFactory.addNumbers(numbers);
+        ArrayList<Integer> numbers = NumbersFactory.createListWithNumbers();
         NumbersFactory.reverseNumbers(numbers);
         NumbersFactory.showSum(numbers);
 
